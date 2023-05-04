@@ -1,0 +1,88 @@
+body{
+    background-color: #C4C4C4;
+    margin:  0 auto;
+}
+.search{
+    font-size: 48px;
+    height: 60px;
+    width: 500px;
+    display: block;
+    background-color: white;
+    border: 0;
+    margin: 0 auto;
+    margin-top: 62px;
+    padding-left: 13px;
+    box-sizing: border-box;
+}
+.output {
+    font-size: 30px;
+    height: 44px;
+    width: 500px;
+    display: block;
+    background-color: #E3E3E3;
+    border: black solid 2px;
+    margin: 0 auto;
+    margin-top: 0px;
+    padding-left: 13px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.output:hover{
+    background-color: #65CDF9;
+}
+.searchOutputContainer{
+margin: 0;
+padding:0;
+}
+.list{
+list-style: none;
+margin: 0 auto;
+margin-top: 45px;
+padding: 0;
+}
+.item{
+    margin: 0 auto;
+    
+width: 500px;
+box-sizing: border-box;
+border: black solid 1px;
+background-color: #E27BEB;
+display: flex;
+justify-content: space-between;
+}
+.item p{
+    margin: 0;
+    font-size: 24px;
+}
+.info{
+    margin: auto 0;
+}
+.del{
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: 0;
+    position: relative;
+    align-self: center;
+    margin-right: 34px;
+    cursor: pointer;
+}
+.del::after{
+    content: "";
+    position: absolute;
+    background-color: #FF0000;
+    width: 4px;
+    height: 42px;
+    rotate: -45deg;
+    top:3px
+    
+}
+.del::before{
+    content: "";
+    position: absolute;
+    background-color: #FF0000;
+    width: 4px;
+    height: 42px;
+    rotate: 45deg;
+    top: 3px;
+}
